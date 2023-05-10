@@ -11,7 +11,7 @@ pipeline {
       steps {
         echo 'Building..'
         
-        sh 'mvn clean package'e
+        sh 'mvn clean package'
       }
     }
     stage('Create Container Image') {
