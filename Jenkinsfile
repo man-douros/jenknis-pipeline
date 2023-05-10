@@ -49,6 +49,7 @@ pipeline {
     timeout(5) { 
       openshift.selector("dc", "codelikethewind").related('pods').untilEach(1) { 
         return (it.object().status.phase == "Running") 
+git credentialsId: 'your git credentials ID', url: 'https://github.com/man-douros/jenknis-pipeline.git'
       } 
     } 
   } 
