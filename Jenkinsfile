@@ -20,7 +20,7 @@ pipeline {
         
         script {
           openshift.withCluster() {
-  openshift.withProject("jenkins") {
+  openshift.withProject("jenkins-man") {
 
     def buildConfigExists = openshift.selector("bc", "codelikethewind").exists()
 
