@@ -21,7 +21,7 @@ public class SimpleServlet extends HttpServlet {
 		PrintWriter out = response.getWriter();
 		out.println("<html>");
 		out.println("<body>");
-		out.println("<h1>" + "Hello mandouros1" + "</h1>");
+		out.println("<h1>" + "Hello mandouros2" + "</h1>");
 		out.println("</body>");
 		out.println("</html>");
 	}
