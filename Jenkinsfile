@@ -3,7 +3,7 @@
 pipeline {
 
   agent {
-    label 'maven'
+    label 'Built-In Node'
   }
 
   stages {
